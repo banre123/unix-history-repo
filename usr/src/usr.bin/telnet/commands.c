@@ -6,7 +6,7 @@
  */
 
 #ifndef lint
-static char sccsid[] = "@(#)commands.c	5.6 (Berkeley) %G%";
+static char sccsid[] = "@(#)commands.c	5.7 (Berkeley) %G%";
 #endif /* not lint */
 
 #if	defined(unix)
