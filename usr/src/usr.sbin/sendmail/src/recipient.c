@@ -3,7 +3,7 @@
 # include <sys/stat.h>
 # include "sendmail.h"
 
-static char SccsId[] = "@(#)recipient.c	3.12	%G%";
+static char SccsId[] = "@(#)recipient.c	3.13	%G%";
 
 /*
 **  SENDTO -- Designate a send list.
