@@ -1,4 +1,4 @@
-static	char *sccsid = "@(#)ncheck.c	1.2 (Berkeley) %G%";
+static	char *sccsid = "@(#)ncheck.c	1.3 (Berkeley) %G%";
 /*
  * ncheck -- obtain file names from reading filesystem
  */
