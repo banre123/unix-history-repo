@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 1989, 1993
+ * Copyright (c) 1989, 1993, 1995
  *	The Regents of the University of California.  All rights reserved.
  *
  * %sccs.include.redist.c%
@@ -96,6 +96,8 @@ config(fname)
 			TAILQ_INSERT_TAIL(&tp->list, ep, q);
 		}
 	}
+
+	fclose(cfp);
 }
 
 /*
