@@ -1,0 +1,41 @@
+#	   user: bostic
+#	machine: vangogh.CS.Berkeley.EDU
+#	   tree: /bin
+#	   date: Mon Jul 26 18:51:01 1993
+
+# .
+/set type=file gid=7 uid=3 mode=0555 nlink=1
+.               type=dir uid=0 gid=0 mode=0755 nlink=2 size=512 \
+                time=743315750.0
+    [           nlink=2 size=45056 time=743315749.0 cksum=2898630432
+    cat         size=45056 time=743315698.0 cksum=3805880575
+    chmod       size=53248 time=743315700.0 cksum=537104315
+    cp          size=45056 time=743315701.0 cksum=3582364207
+    csh         size=188416 time=743315703.0 cksum=157031190
+    date        size=57344 time=743315713.0 cksum=3448186640
+    dd          size=53248 time=743315715.0 cksum=3635052073
+    df          gid=5 mode=02555 size=49152 time=743315716.0 \
+                cksum=3272841617
+    echo        size=32768 time=743315718.0 cksum=4042976664
+    ed          size=28672 time=743315719.0 cksum=285745384
+    expr        size=49152 time=743315720.0 cksum=1162866042
+    hostname    size=32768 time=743315722.0 cksum=3174255541
+    kill        size=45056 time=743315723.0 cksum=3467166695
+    ln          size=36864 time=743315724.0 cksum=1342809516
+    ls          size=102400 time=743315726.0 cksum=4062709884
+    mkdir       size=32768 time=743315728.0 cksum=484932268
+    mv          size=36864 time=743315729.0 cksum=566245875
+    pax         size=172032 time=743315731.0 cksum=887051359
+    ps          gid=2 mode=02555 size=114688 time=743315733.0 \
+                cksum=2814878187
+    pwd         size=36864 time=743315734.0 cksum=2512218588
+    rcp         uid=0 mode=04555 size=143360 time=743315736.0 \
+                cksum=2554112953
+    rm          size=94208 time=743315738.0 cksum=4096496334
+    rmail       size=49152 time=743315739.0 cksum=451286940
+    rmdir       size=32768 time=743315740.0 cksum=1049266373
+    sh          size=212992 time=743315743.0 cksum=682863848
+    sleep       size=40960 time=743315744.0 cksum=2450837397
+    stty        size=61440 time=743315746.0 cksum=1520225277
+    sync        size=12288 time=743315747.0 cksum=273266804
+    test        nlink=2 size=45056 time=743315749.0 cksum=2898630432
