@@ -4,7 +4,7 @@
  *
  * %sccs.include.redist.c%
  *
- *	@(#)endian.h	7.6 (Berkeley) %G%
+ *	@(#)endian.h	7.7 (Berkeley) %G%
  */
 
 /*
