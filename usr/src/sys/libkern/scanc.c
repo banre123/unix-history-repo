@@ -4,7 +4,7 @@
  *
  * %sccs.include.redist.c%
  *
- *	@(#)scanc.c	7.1 (Berkeley) %G%
+ *	@(#)scanc.c	7.2 (Berkeley) %G%
  */
 
 int
