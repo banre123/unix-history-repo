@@ -4,7 +4,7 @@
  *
  * %sccs.include.redist.c%
  *
- *	@(#)route.h	8.1 (Berkeley) %G%
+ *	@(#)route.h	8.2 (Berkeley) %G%
  */
 
 /*
@@ -122,7 +122,7 @@ struct	rtstat {
  */
 struct rt_msghdr {
 	u_short	rtm_msglen;	/* to skip over non-understood messages */
-	u_char	rtm_version;	/* future binary compatability */
+	u_char	rtm_version;	/* future binary compatibility */
 	u_char	rtm_type;	/* message type */
 	u_short	rtm_index;	/* index for associated ifp */
 	int	rtm_flags;	/* flags, incl. kern & message, e.g. DONE */
