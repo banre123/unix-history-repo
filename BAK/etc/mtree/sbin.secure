@@ -1,0 +1,70 @@
+#	   user: bostic
+#	machine: vangogh.CS.Berkeley.EDU
+#	   tree: /sbin
+#	   date: Mon Jul 26 18:51:14 1993
+
+# .
+/set type=file gid=7 uid=3 mode=0555 nlink=1
+.               type=dir uid=0 gid=0 mode=0755 nlink=2 size=1024 \
+                time=743317040.0
+    XNSrouted   size=57344 time=743316964.0 cksum=946090339
+    badsect     size=45056 time=743316965.0 cksum=2160217767
+    clri        size=45056 time=743316966.0 cksum=73451201
+    disklabel   gid=5 mode=02550 size=102400 time=743316968.0 \
+                cksum=1714678139
+    dmesg       gid=2 mode=02555 size=81920 time=743316970.0 \
+                cksum=2393416436
+    dump        uid=0 gid=4 mode=06555 nlink=2 size=126976 \
+                time=743316972.0 cksum=2411441076
+    dumpfs      size=53248 time=743316975.0 cksum=2525298381
+    dumplfs     size=53248 time=743316977.0 cksum=2842323346
+    fastboot    size=1892 time=743316978.0 cksum=798810965
+    fasthalt    size=1890 time=743316978.0 cksum=3277256028
+    fsck        size=126976 time=743316980.0 cksum=2969822154
+    fsdb        size=81920 time=743316982.0 cksum=1146630972
+    halt        nlink=2 size=81920 time=743317019.0 cksum=612698993
+    icheck      size=49152 time=743316984.0 cksum=3076977475
+    ifconfig    size=65536 time=743316985.0 cksum=2456905721
+    init        mode=0500 size=102400 time=743316987.0 cksum=2250379124
+    mknod       size=45056 time=743316989.0 cksum=3704952436
+    mount       size=53248 time=743316990.0 cksum=4088887327
+    mount_fdesc size=45056 time=743316992.0 cksum=508275405
+    mount_kernfs \
+                size=45056 time=743316994.0 cksum=3069935032
+    mount_lfs   size=45056 time=743316995.0 cksum=3883479011
+    mount_lofs  size=45056 time=743316996.0 cksum=433648313
+    mount_mfs   nlink=2 size=102400 time=743317008.0 cksum=908672033
+    mount_nfs   size=69632 time=743316998.0 cksum=4104780859
+    mount_null  size=45056 time=743317001.0 cksum=2316411741
+    mount_portal \
+                size=86016 time=743317002.0 cksum=736301802
+    mount_umap  size=49152 time=743317004.0 cksum=918631735
+    mountd      size=126976 time=743317005.0 cksum=2706446404
+    ncheck      size=45056 time=743317007.0 cksum=597343872
+    newfs       nlink=2 size=102400 time=743317008.0 cksum=908672033
+    newlfs      size=94208 time=743317011.0 cksum=2106715486
+    nfsd        size=61440 time=743317012.0 cksum=205072823
+    nfsiod      size=49152 time=743317014.0 cksum=3754308786
+    nologin     size=1907 time=743317015.0 cksum=529668688
+    ping        uid=0 mode=04555 size=61440 time=743317016.0 \
+                cksum=3650115480
+    quotacheck  size=98304 time=743317017.0 cksum=454610265
+    rdump       uid=0 gid=4 mode=06555 nlink=2 size=126976 \
+                time=743316972.0 cksum=2411441076
+    reboot      nlink=2 size=81920 time=743317019.0 cksum=612698993
+    restore     uid=0 gid=4 mode=06555 nlink=2 size=139264 \
+                time=743317023.0 cksum=2613926810
+    route       uid=0 mode=04555 size=73728 time=743317026.0 \
+                cksum=286737294
+    routed      size=86016 time=743317028.0 cksum=1737683042
+    rrestore    uid=0 gid=4 mode=06555 nlink=2 size=139264 \
+                time=743317023.0 cksum=2613926810
+    savecore    size=61440 time=743317029.0 cksum=3038854352
+    scsiformat  size=40960 time=743317031.0 cksum=932304261
+    shutdown    uid=0 gid=5 mode=04550 size=94208 time=743317033.0 \
+                cksum=4140643252
+    slattach    size=45056 time=743317034.0 cksum=410301532
+    startslip   size=61440 time=743317036.0 cksum=2172562226
+    swapon      size=45056 time=743317037.0 cksum=2237684934
+    tunefs      size=49152 time=743317039.0 cksum=1758575585
+    umount      size=65536 time=743317040.0 cksum=2033763379
