@@ -3,7 +3,7 @@
  * All rights reserved.  The Berkeley software License Agreement
  * specifies the terms and conditions for redistribution.
  *
- *	@(#)reboot.h	7.1 (Berkeley) %G%
+ *	@(#)reboot.h	7.2 (Berkeley) %G%
  */
 
 /*
