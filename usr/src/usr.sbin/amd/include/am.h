@@ -9,7 +9,7 @@
  *
  * %sccs.include.redist.c%
  *
- *	@(#)am.h	5.5 (Berkeley) %G%
+ *	@(#)am.h	8.1 (Berkeley) %G%
  *
  * $Id: am.h,v 5.2.2.1 1992/02/09 15:09:54 jsp beta $
  *
