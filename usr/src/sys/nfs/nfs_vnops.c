@@ -7,7 +7,7 @@
  *
  * %sccs.include.redist.c%
  *
- *	@(#)nfs_vnops.c	7.76 (Berkeley) %G%
+ *	@(#)nfs_vnops.c	7.77 (Berkeley) %G%
  */
 
 /*
