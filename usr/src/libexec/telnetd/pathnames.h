@@ -14,9 +14,18 @@
  * IMPLIED WARRANTIES, INCLUDING, WITHOUT LIMITATION, THE IMPLIED
  * WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE.
  *
- *	@(#)pathnames.h	5.2 (Berkeley) %G%
+ *	@(#)pathnames.h	5.3 (Berkeley) %G%
  */
 
-#include <paths.h>
+#if BSD > 43
 
-#define	_PATH_LOGIN	"/usr/bin/login"
+# include <paths.h>
+
+# define	_PATH_LOGIN	"/usr/bin/login"
+
+#else
+ 
+# define	_PATH_TTY	"/dev/tty"
+# define	_PATH_LOGIN	"/bin/login"
+
+#endif
