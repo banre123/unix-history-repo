@@ -4,7 +4,7 @@
  *
  * %sccs.include.redist.c%
  *
- *	@(#)udp_var.h	7.9 (Berkeley) %G%
+ *	@(#)udp_var.h	7.10 (Berkeley) %G%
  */
 
 /*
