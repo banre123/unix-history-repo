@@ -1,10 +1,10 @@
-#	@(#)Makefile	1.7 (Berkeley) %G%
+#	@(#)Makefile	1.8 (Berkeley) %G%
 
 DIR=	papers/kernmalloc
 SRCS=	kernmalloc.t appendix.t
 MACROS=	-ms
 
-paper.${PRINTER}: ${SRCS} alloc.fig usage.tbl
+paper.ps: ${SRCS} alloc.fig usage.tbl
 	${SOELIM} ${SRCS} | ${TBL} | ${PIC} | ${EQN} | ${GRIND} | \
 	    ${ROFF} > ${.TARGET}
 
