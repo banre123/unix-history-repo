@@ -7,7 +7,7 @@
  *
  * %sccs.include.redist.c%
  *
- *	@(#)nfs_syscalls.c	7.30 (Berkeley) %G%
+ *	@(#)nfs_syscalls.c	7.30.1.1 (Berkeley) %G%
  */
 
 #include "param.h"
