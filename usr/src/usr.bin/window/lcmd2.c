@@ -1,5 +1,5 @@
 #ifndef lint
-static char sccsid[] = "@(#)lcmd2.c	3.8 %G%";
+static char sccsid[] = "@(#)lcmd2.c	3.9 %G%";
 #endif
 
 #include "defs.h"
