@@ -1,4 +1,4 @@
-/* math.h 1.1 (ELEFUNT) %G% */
+/* math.h 1.2 (ELEFUNT) %G% */
 
 extern double asinh(), acosh(), atanh();
 extern double erf(), erfc();
