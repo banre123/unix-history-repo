@@ -1,4 +1,4 @@
-#	@(#)Makefile	8.2 (Berkeley) %G%
+#	@(#)Makefile	8.3 (Berkeley) %G%
 
 DIR=	ps1/18.curses
 SRCS=	Master
