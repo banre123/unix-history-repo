@@ -3,7 +3,7 @@
 .\"
 .\" %sccs.include.redist.man%
 .\"
-.\"	@(#)f77.ms	8.1 (Berkeley) %G%
+.\"	@(#)f77.ms	8.2 (Berkeley) %G%
 .\"
 .rm CM
 .hw name-list
