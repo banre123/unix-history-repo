@@ -1,11 +1,11 @@
-#	@(#)Makefile	6.3 (Berkeley) %G%
+#	@(#)Makefile	6.4 (Berkeley) %G%
 
 DIR=	usd/13.ex
 SRCS=	ex.rm
 MACROS=	-msU
 CLEANFILES=summary.*
 
-paper.ps ${SRCS} summary.${PRINTER}
+paper.ps ${SRCS} summary.ps
 	${ROFF} ${SRCS} > ${.TARGET}
 
 summary.ps: ex.summary
