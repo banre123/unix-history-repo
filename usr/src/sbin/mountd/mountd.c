@@ -116,6 +116,7 @@ main(argc, argv)
 		exname[MAXPATHLEN-1] = '\0';
 	} else
 		strcpy(exname, _PATH_EXPORTS);
+	openlog("mountd:", LOG_PID, LOG_DAEMON);
 	get_exportlist();
 	get_mountlist();
 	if (debug == 0) {
@@ -141,7 +142,6 @@ main(argc, argv)
 		signal(SIGINT, SIG_IGN);
 		signal(SIGQUIT, SIG_IGN);
 	}
-	openlog("mountd:", LOG_PID, LOG_DAEMON);
 	signal(SIGHUP, get_exportlist);
 	signal(SIGTERM, send_umntall);
 	{ FILE *pidfile = fopen(_PATH_MOUNTDPID, "w");
@@ -670,7 +670,8 @@ void get_mountlist()
 	char str[STRSIZ];
 	FILE *mlfile;
 
-	if ((mlfile = fopen(_PATH_RMOUNTLIST, "r")) == NULL) {
+	if (((mlfile = fopen(_PATH_RMOUNTLIST, "r")) == NULL) &&
+	    ((mlfile = fopen(_PATH_RMOUNTLIST, "w")) == NULL)) {
 		syslog(LOG_WARNING, "Can't open %s", _PATH_RMOUNTLIST);
 		return;
 	}
