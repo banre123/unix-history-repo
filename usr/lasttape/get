@@ -1,0 +1,60 @@
+#! /bin/csh
+#
+# shell script to extract update material from
+# distribution tape
+# run with csh
+#
+rewind
+cp /dev/rmt12 /dev/null		# skip boot stuff
+cp /dev/rmt12 /dev/null		# skip root dump
+cd usr
+tar xvf /dev/rmt8 \
+	include/{signal.h,vadvise.h} \
+	bin/{iostat,sdb} ucb/{vmstat,w} \
+	include/{curses.h,unctrl.h} \
+	lib/lint/llib-lcurses.l lib/lisp \
+	bin/{bc,cu,calendar,prof,uusend} \
+	ucb/{checknr,ctags,error,expand,lisp,liszt,lxref} \
+	ucb/{lpr,lprm,lpq,ls,man,ranlib,reset} \
+	lib/{lpd,lpf} \
+	lib/f77pass1 \
+	man/man1/{adb.1,bc.1,calendar.1,cc.1,checknr.1,ctags.1,cu.1c,f77.1} \
+	man/man1/{last.1,login.1,lpr.1,more.1,mt.1,mv.1,od.1,refer.1,rm.1} \
+	man/man1/{stty.1,tar.1,tset.1,uusend.1c,vgrind.1,vmstat.1,vtroff.1} \
+	man/man2/{intro.2,exec.2,kill.2,reboot.2v,sigsys.2j} \
+	man/man3/{curses.3,fopen.3s,printf.3s} \
+	man/man4 \
+	man/man5/{a.out.5,fstab.5} \
+	man/man6/{chase.6,hangman.6,rogue.6,worm.6} \
+	man/man8/{bad144.8,badsect.8,config.8,crash.8,format.8,halt.8,init.8,mkfs.8} \
+	man/man8/{pstat.8,reboot.8,sa.8,savecore.8,shutdown.8} \
+	ucb/{pc,pi,pmerge,px,pxp} \
+	lib/{pc{0,2,3},p{c,i}2.0strings,px_header,libpc.a,how_p{c,i,x,xp}}
+mkdir src
+cd src
+rewind
+cp /dev/rmt12 /dev/null
+cp /dev/rmt12 /dev/null
+cp /dev/rmt12 /dev/null
+tar xvf /dev/rmt8 \
+	cmd/{mip,pcc,c2,arff.c} \
+	cmd/{adb,login.c,ps.c,sh} \
+	cmd/{bad144.c,badsect.c,config,dmesg.c,dump,init.c,fsck.c,halt.c} \
+	cmd/{pstat.c,ranlib.c,reboot.c,renice.c,savecore.c,shutdown.c} \
+	cmd/{iostat.c,sdb,vmstat.c,w.c} \
+	lib/libF77/{main.c,pow_zi.c,z_sqrt.c} \
+	lib/libI77/{fmtlib.c,lread.c} \
+	lib/libcurses \
+	libc \
+	lib/libdbm/dbm.c \
+	lib/libjobs/sigset.c \
+	lib/libnm/acos.c \
+	lib/libpc \
+	cmd/{tar.c,mt.c} \
+	cmd/{pascal,pc0,pi,px,pxp} \
+	cmd/f77/{init.c,main.c,proc.c,vax.c} \
+	cmd/{bc.y,calendar,checknr.c,csh,ctags.c,cu.c,delivermail,diff,error} \
+	cmd/{expand.c,ld.c,lisp,lpr,ls,mail.c,man.c,make,mkfs.c,mv.c} \
+	cmd/{oldcsh,od.c,prof,reset.c} \
+	cmd/{restor.c,rm.c,rmdir.c,uusend.c,wall.c,who.c,write.c} \
+	cmd/{dumpdir.c,icheck.c,sa.c,last.c,lastcomm.c}
