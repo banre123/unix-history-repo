@@ -1,0 +1,91 @@
+#	   user: bostic
+#	machine: vangogh.CS.Berkeley.EDU
+#	   tree: /usr/sbin
+#	   date: Mon Jul 26 18:52:30 1993
+
+# .
+/set type=file gid=7 uid=3 mode=0555 nlink=1
+.               type=dir uid=0 gid=0 mode=0755 nlink=2 size=1536 \
+                time=743317825.0
+    ac          size=49152 time=743317738.0 cksum=1503987342
+    accton      size=32768 time=743317740.0 cksum=808707487
+    amd         size=196608 time=743317743.0 cksum=2966867101
+    amq         size=73728 time=743317745.0 cksum=2305803729
+    arp         size=57344 time=743317750.0 cksum=576387746
+    chown       nlink=2 size=90112 time=743317752.0 cksum=3067900304
+    chroot      size=36864 time=743317754.0 cksum=421191427
+    compile_et  size=53248 time=743316494.0 cksum=3004583805
+    config      size=90112 time=743317820.0 cksum=3733001615
+    cron        size=94208 time=743317755.0 cksum=2807935313
+    dev_mkdb    size=73728 time=743317757.0 cksum=3078818134
+    diskpart    size=90112 time=743317759.0 cksum=2109211356
+    edquota     size=98304 time=743317761.0 cksum=2159610073
+    ext_srvtab  size=86016 time=743316509.0 cksum=3621537365
+    fsinfo      size=118784 time=743317747.0 cksum=3529191870
+    inetd       size=98304 time=743317763.0 cksum=3599444661
+    iostat      gid=2 mode=02555 size=81920 time=743317822.0 \
+                cksum=3435384814
+    kdb_destroy size=32768 time=743316510.0 cksum=2348743159
+    kdb_edit    size=94208 time=743316512.0 cksum=554489361
+    kdb_init    size=90112 time=743316513.0 cksum=2549095813
+    kdb_util    size=94208 time=743316515.0 cksum=3354958722
+    kerberos    size=106496 time=743316517.0 cksum=1689755672
+    kgmon       size=81920 time=743317765.0 cksum=900435548
+    kstash      size=86016 time=743316523.0 cksum=3073028710
+    kvm_mkdb    size=73728 time=743317767.0 cksum=3191568289
+    lpc         gid=1 mode=02555 size=118784 time=743317769.0 \
+                cksum=1527640217
+    lpd         size=131072 time=743317771.0 cksum=39410940
+    lptest      size=40960 time=743317778.0 cksum=2753336782
+    mailstats   size=49152 time=743317803.0 cksum=444953269
+    make_fp     size=36864 time=743316495.0 cksum=3302165441
+    make_ip     size=36864 time=743316496.0 cksum=3310040754
+    make_key_perm \
+                size=36864 time=743316497.0 cksum=909400067
+    make_keypair \
+                size=53248 time=743316529.0 cksum=3804707677
+    make_odd    size=36864 time=743316498.0 cksum=3371375966
+    make_p      size=36864 time=743316499.0 cksum=684578404
+    make_p_table \
+                size=36864 time=743316500.0 cksum=2211358241
+    make_s_table \
+                size=36864 time=743316501.0 cksum=3216433910
+    makemap     size=77824 time=743317804.0 cksum=3032468315
+    mk-amd-map  size=57344 time=743317749.0 cksum=2558171514
+    mkproto     size=40960 time=743317783.0 cksum=2553254106
+    mtree       size=110592 time=743317784.0 cksum=925356951
+    named       mode=0755 size=135168 time=743315775.0 cksum=543996218
+    named.reload \
+                size=160 time=743315776.0 cksum=1234035442
+    named.restart \
+                size=204 time=743315777.0 cksum=1379980246
+    pac         size=106496 time=743317780.0 cksum=4003165942
+    portmap     size=65536 time=743317786.0 cksum=160041804
+    praliases   size=53248 time=743317806.0 cksum=4106888575
+    pstat       gid=2 mode=02555 size=94208 time=743317788.0 \
+                cksum=2628369221
+    pwd_mkdb    size=77824 time=743317790.0 cksum=2123521312
+    quot        size=98304 time=743317792.0 cksum=4001288771
+    quotaoff    nlink=2 size=45056 time=743317793.0 cksum=1371268947
+    quotaon     nlink=2 size=45056 time=743317793.0 cksum=1371268947
+    repquota    size=86016 time=743317796.0 cksum=949448406
+    rmt         size=45056 time=743317797.0 cksum=1586409515
+    rwhod       size=53248 time=743317799.0 cksum=1394295266
+    sa          size=90112 time=743317800.0 cksum=2072183587
+    sendmail    uid=0 gid=2 mode=06555 nlink=3 size=221184 \
+                time=741363846.0 cksum=335531905
+    sliplogin   uid=0 mode=04555 size=57344 time=743317807.0 \
+                cksum=3651032123
+    sysctl      size=94208 time=743317809.0 cksum=4003637472
+    syslogd     size=69632 time=743317811.0 cksum=1440658442
+    timed       size=90112 time=743317824.0 cksum=1862508763
+    timedc      uid=0 mode=04555 size=69632 time=743317826.0 \
+                cksum=2941380325
+    traceroute  uid=0 mode=04555 size=57344 time=743317813.0 \
+                cksum=2960503357
+    trpt        gid=2 mode=02555 size=53248 time=743317814.0 \
+                cksum=1446837239
+    trsp        gid=2 mode=02555 size=53248 time=743317816.0 \
+                cksum=3430501092
+    update      size=16384 time=743317817.0 cksum=47497369
+    vipw        size=40960 time=743317819.0 cksum=2819574629
