@@ -1,0 +1,336 @@
+#	   user: bostic
+#	machine: vangogh.CS.Berkeley.EDU
+#	   tree: /usr/bin
+#	   date: Mon Jul 26 18:51:33 1993
+
+# .
+/set type=file gid=7 uid=3 mode=0555 nlink=1
+.               type=dir uid=0 gid=0 mode=0755 nlink=2 size=4096 \
+                time=743317776.0
+    Mail        nlink=2 size=139264 time=743317506.0 cksum=2203026597
+    X11         type=link uid=0 gid=0 mode=0755 size=12 time=743317776.0 \
+                link=/usr/X11/bin
+    addftinfo   uid=0 gid=0 mode=0755 size=75995 time=743316038.0 \
+                cksum=2000199573
+    afmtodit    uid=0 gid=0 mode=0755 size=8412 time=743316133.0 \
+                cksum=983254434
+    apply       size=45056 time=743317291.0 cksum=27271141
+    apropos     size=45056 time=743317293.0 cksum=1849267709
+    ar          size=61440 time=743317295.0 cksum=4234742583
+    as          size=126976 time=743315877.0 cksum=3285007960
+    at          uid=0 mode=04555 size=94208 time=743317297.0 \
+                cksum=916888576
+    atq         uid=0 mode=04555 size=57344 time=743317299.0 \
+                cksum=2355719057
+    atrm        uid=0 mode=04555 size=94208 time=743317301.0 \
+                cksum=1007079226
+    awk         size=172032 time=743315780.0 cksum=657939595
+    banner      size=53248 time=743317305.0 cksum=1592669910
+    basename    size=32768 time=743317306.0 cksum=3527789567
+    bc          size=53248 time=743317309.0 cksum=34886165
+    bdes        size=53248 time=743317311.0 cksum=562203889
+    biff        size=73728 time=743317312.0 cksum=4127988948
+    cal         size=49152 time=743317314.0 cksum=1816095569
+    calendar    size=94208 time=743317317.0 cksum=2323280733
+    cap_mkdb    size=81920 time=743317319.0 cksum=810116713
+    cc          type=link uid=0 gid=0 mode=0755 size=27 time=743317776.0 \
+                link=/usr/libexec/gcc2/gcc-2.3.3
+    checknr     size=53248 time=743317320.0 cksum=821509274
+    chflags     size=53248 time=743317322.0 cksum=1580792958
+    chgrp       nlink=2 size=90112 time=743317752.0 cksum=3067900304
+    chpass      uid=0 mode=04555 size=98304 time=743317324.0 \
+                cksum=1353589900
+    chsh        uid=0 mode=04555 size=98304 time=741856639.0 \
+                cksum=1314368704
+    cksum       size=36864 time=743317327.0 cksum=3514993272
+    clear       size=1866 time=743317625.0 cksum=2329866380
+    cmp         size=45056 time=743317727.0 cksum=3651317344
+    col         size=45056 time=743317328.0 cksum=1667601261
+    colcrt      size=36864 time=743317330.0 cksum=770031008
+    colrm       size=45056 time=743317331.0 cksum=1379993804
+    column      size=45056 time=743317333.0 cksum=1877374641
+    comm        size=36864 time=743317334.0 cksum=699245421
+    compress    nlink=2 size=49152 time=743317336.0 cksum=2546426669
+    cpp         size=2783 time=743317338.0 cksum=906074123
+    ctags       size=53248 time=743317340.0 cksum=1145580143
+    cu          uid=66 gid=117 mode=04510 nlink=2 size=126976 \
+                time=743317615.0 cksum=4029998637
+    cut         size=45056 time=743317341.0 cksum=4138455061
+    dc          size=53248 time=743317343.0 cksum=1488665646
+    deroff      size=61440 time=743317345.0 cksum=2031593129
+    diction     size=742 time=743317347.0 cksum=1031529836
+    diff        size=65536 time=743317356.0 cksum=3292170155
+    diff3       size=637 time=743317358.0 cksum=1133718369
+    diffh       size=40960 time=743317359.0 cksum=3567248207
+    dig         uid=0 gid=0 mode=0755 size=98304 time=743315773.0 \
+                cksum=2707402465
+    dirname     size=32768 time=743317360.0 cksum=3041017026
+    du          size=53248 time=743317362.0 cksum=3364497785
+    edit        mode=01755 nlink=4 size=192512 time=743317367.0 \
+                cksum=3583434416
+    egrep       nlink=3 size=57344 time=743317400.0 cksum=211404147
+    enroll      size=90112 time=743317716.0 cksum=3379584682
+    env         size=36864 time=743317363.0 cksum=2145468879
+    eqn         uid=0 gid=0 mode=0755 size=200283 time=743315979.0 \
+                cksum=3293089300
+    error       size=106496 time=743317365.0 cksum=2890855388
+    ex          mode=01755 nlink=4 size=192512 time=743317367.0 \
+                cksum=3583434416
+    expand      size=36864 time=743317373.0 cksum=1070076285
+    explain     size=416 time=743317349.0 cksum=4077181439
+    false       size=12288 time=743317375.0 cksum=2868992279
+    fgrep       nlink=3 size=57344 time=743317400.0 cksum=211404147
+    file        size=49152 time=743317376.0 cksum=828690550
+    find        size=106496 time=743317378.0 cksum=3356180968
+    finger      size=102400 time=743317380.0 cksum=2036930367
+    fmt         size=49152 time=743317382.0 cksum=2124930109
+    fold        size=45056 time=743317383.0 cksum=3131846918
+    fpr         size=32768 time=743317384.0 cksum=4049815072
+    from        size=86016 time=743317386.0 cksum=514675991
+    fsplit      size=40960 time=743317388.0 cksum=3735660922
+    fstat       gid=2 mode=02555 size=102400 time=743317390.0 \
+                cksum=473995048
+    ftp         size=147456 time=743317392.0 cksum=713330367
+    g++         type=link uid=0 gid=0 mode=0755 size=27 time=743317776.0 \
+                link=/usr/libexec/gcc2/g++-2.3.3
+    gcc         type=link uid=0 gid=0 mode=0755 size=27 time=743317776.0 \
+                link=/usr/libexec/gcc2/gcc-2.3.3
+    gcc-2.3.3   type=link uid=0 gid=0 mode=0755 size=27 time=743317776.0 \
+                link=/usr/libexec/gcc2/gcc-2.3.3
+    gcc2        type=link uid=0 gid=0 mode=0755 size=27 time=743317776.0 \
+                link=/usr/libexec/gcc2/gcc-2.3.3
+    gcore       size=86016 time=743317394.0 cksum=586674749
+    gprof       size=61440 time=743317396.0 cksum=1145500636
+    graph       size=53248 time=743317397.0 cksum=1232866690
+    grep        nlink=3 size=57344 time=743317400.0 cksum=211404147
+    grodvi      uid=0 gid=0 mode=0755 size=101785 time=743315999.0 \
+                cksum=3117726809
+    groff       uid=0 gid=0 mode=0755 size=102376 time=743315945.0 \
+                cksum=714826005
+    grog        uid=0 gid=0 mode=0755 size=2621 time=743316137.0 \
+                cksum=2600499143
+    grops       uid=0 gid=0 mode=0755 size=131908 time=743315987.0 \
+                cksum=572911441
+    grotty      uid=0 gid=0 mode=0755 size=92604 time=743315994.0 \
+                cksum=29870991
+    groups      size=1861 time=743317413.0 cksum=2287502982
+    head        size=45056 time=743317407.0 cksum=3997519692
+    hexdump     nlink=2 size=53248 time=743317409.0 cksum=3416041140
+    host        uid=0 gid=0 mode=0755 size=61440 time=743315773.0 \
+                cksum=496221586
+    id          size=86016 time=743317413.0 cksum=2501376013
+    indent      size=69632 time=743317415.0 cksum=1361642057
+    indxbib     uid=0 gid=0 mode=0755 size=78467 time=743316024.0 \
+                cksum=489145022
+    install     size=90112 time=743317714.0 cksum=3481420731
+    join        size=49152 time=743317416.0 cksum=2482548556
+    jot         size=49152 time=743317418.0 cksum=929178466
+    kdestroy    size=32768 time=743316516.0 cksum=2266938428
+    kdump       size=53248 time=743317419.0 cksum=2946465880
+    kinit       size=126976 time=743316519.0 cksum=4146811931
+    klist       size=49152 time=743316520.0 cksum=1844930267
+    ksrvtgt     size=81920 time=743316522.0 cksum=874996573
+    ktrace      size=45056 time=743317420.0 cksum=318947549
+    lam         size=36864 time=743317421.0 cksum=1827945153
+    last        size=53248 time=743317423.0 cksum=1212945042
+    lastcomm    size=86016 time=743317424.0 cksum=2258540320
+    ld          size=73728 time=743317729.0 cksum=269102044
+    learn       size=69632 time=743317427.0 cksum=793716861
+    leave       size=45056 time=743317483.0 cksum=227819751
+    lex         size=114688 time=743317486.0 cksum=2111250022
+    lkbib       uid=0 gid=0 mode=0755 size=83290 time=743316029.0 \
+                cksum=3768748541
+    locate      size=32768 time=743317493.0 cksum=3508186975
+    lock        uid=0 mode=04555 size=94208 time=743317495.0 \
+                cksum=2437378162
+    logger      size=53248 time=743317497.0 cksum=136288088
+    login       uid=0 mode=04555 size=147456 time=743317499.0 \
+                cksum=1466154798
+    logname     size=32768 time=743317500.0 cksum=1176861762
+    look        size=45056 time=743317730.0 cksum=2654586389
+    lookbib     uid=0 gid=0 mode=0755 size=83384 time=743316019.0 \
+                cksum=231995051
+    lorder      size=2859 time=743317502.0 cksum=1658037637
+    lpq         uid=0 gid=1 mode=06555 size=110592 time=743317773.0 \
+                cksum=1830579222
+    lpr         uid=0 gid=1 mode=06555 size=114688 time=743317775.0 \
+                cksum=1549625983
+    lprm        uid=0 gid=1 mode=06555 size=110592 time=743317777.0 \
+                cksum=1394525558
+    m4          size=57344 time=743317503.0 cksum=3024649796
+    mail        nlink=2 size=139264 time=743317506.0 cksum=2203026597
+    mailq       uid=0 gid=2 mode=06555 nlink=3 size=221184 \
+                time=741363846.0 cksum=335531905
+    make        size=122880 time=743317510.0 cksum=3498584471
+    man         size=49152 time=743317512.0 cksum=1809868522
+    mesg        size=73728 time=743317514.0 cksum=2542328447
+    mkdep       size=2724 time=743317515.0 cksum=3904782534
+    mkfifo      size=32768 time=743317516.0 cksum=4275562305
+    mklocale    size=65536 time=743317518.0 cksum=262733770
+    mkstr       size=36864 time=743317519.0 cksum=3287845090
+    more        size=110592 time=743317522.0 cksum=3558885594
+    mset        size=53248 time=743317622.0 cksum=2327375658
+    msgs        size=106496 time=743317524.0 cksum=4014084888
+    mt          size=45056 time=743317526.0 cksum=1866069608
+    neqn        uid=0 gid=0 mode=0755 size=164 time=743315986.0 \
+                cksum=627784485
+    netstat     gid=2 mode=02555 size=135168 time=743317528.0 \
+                cksum=876536654
+    newaliases  uid=0 gid=2 mode=06555 nlink=3 size=221184 \
+                time=741363846.0 cksum=335531905
+    nfsstat     gid=2 mode=02555 size=81920 time=743317530.0 \
+                cksum=3533594216
+    nice        size=45056 time=743317531.0 cksum=84770675
+    nm          size=49152 time=743317533.0 cksum=3942196132
+    nohup       size=36864 time=743317534.0 cksum=1734155576
+    nroff       uid=0 gid=0 mode=0755 size=677 time=743316141.0 \
+                cksum=595651395
+    nslookup    mode=0755 size=102400 time=743315770.0 cksum=3926296481
+    nsquery     uid=0 gid=0 mode=0755 size=49152 time=743315771.0 \
+                cksum=3442791723
+    nstest      uid=0 gid=0 mode=0755 size=57344 time=743315772.0 \
+                cksum=1769921760
+    od          nlink=2 size=53248 time=743317409.0 cksum=3416041140
+    pagesize    size=32768 time=743317535.0 cksum=1534994157
+    passwd      uid=0 mode=04555 size=139264 time=743317541.0 \
+                cksum=2769476743
+    paste       size=36864 time=743317543.0 cksum=715299416
+    perl        uid=0 gid=0 mode=0755 nlink=3 size=379981 \
+                time=743316283.0 cksum=707240182
+    pfbtops     uid=0 gid=0 mode=0755 size=44401 time=743316043.0 \
+                cksum=2398231892
+    pic         uid=0 gid=0 mode=0755 size=242025 time=743315971.0 \
+                cksum=242235397
+    plot        size=963 time=743317554.0 cksum=478536887
+    pr          size=61440 time=743317555.0 cksum=3438857873
+    printenv    size=32768 time=743317556.0 cksum=2471583827
+    printf      size=45056 time=743317558.0 cksum=3350206214
+    psbb        uid=0 gid=0 mode=0755 size=57487 time=743316048.0 \
+                cksum=353549685
+    ptx         size=49152 time=743317559.0 cksum=2935087950
+    quota       uid=0 mode=04555 size=90112 time=743317561.0 \
+                cksum=722671944
+    ranlib      size=49152 time=743317562.0 cksum=721559844
+    rdist       uid=0 mode=04555 size=131072 time=743317564.0 \
+                cksum=4025287773
+    refer       uid=0 gid=0 mode=0755 size=164044 time=743316009.0 \
+                cksum=224275864
+    register    uid=0 mode=04555 size=122880 time=743316525.0 \
+                cksum=2452360614
+    renice      size=81920 time=743317566.0 cksum=1451229695
+    reset       nlink=2 size=94208 time=743317631.0 cksum=206034244
+    rev         size=36864 time=743317568.0 cksum=1414377553
+    rlogin      uid=0 mode=04555 size=139264 time=743317569.0 \
+                cksum=2196462028
+    rs          size=49152 time=743317571.0 cksum=3193758942
+    rsh         uid=0 mode=04555 size=139264 time=743317573.0 \
+                cksum=1053274398
+    ruptime     size=36864 time=743317574.0 cksum=2004585167
+    ruusend     uid=66 gid=1 nlink=2 size=94208 time=743317667.0 \
+                cksum=3396414669
+    rwho        size=49152 time=743317575.0 cksum=3084613299
+    sccs        size=94208 time=743317577.0 cksum=1640988921
+    script      size=53248 time=743317578.0 cksum=2495582401
+    sed         size=77824 time=743317579.0 cksum=1502944280
+    sendbug     size=2437 time=743316820.0 cksum=3008063830
+    shar        size=2459 time=743317581.0 cksum=1275328232
+    showmount   size=61440 time=743317582.0 cksum=2521430701
+    size        size=32768 time=743317583.0 cksum=4200826943
+    soelim      size=36864 time=743317584.0 cksum=461536391
+    sort        size=45056 time=743317586.0 cksum=876645876
+    spell       size=1383 time=743317589.0 cksum=2092844088
+    spellin     size=32768 time=743317588.0 cksum=2062534036
+    spellout    size=32768 time=743317588.0 cksum=1465247225
+    spline      size=32768 time=743317592.0 cksum=604110766
+    split       size=45056 time=743317594.0 cksum=1523242957
+    strings     size=45056 time=743317595.0 cksum=2216137500
+    strip       size=36864 time=743317597.0 cksum=1523989511
+    struct      size=567 time=743317600.0 cksum=2792276408
+    style       size=1210 time=743317350.0 cksum=3936864725
+    su          uid=0 mode=04555 size=143360 time=743317603.0 \
+                cksum=295002769
+    systat      gid=2 mode=02555 size=163840 time=743317733.0 \
+                cksum=1447997915
+    tail        size=49152 time=743317735.0 cksum=2570000290
+    talk        size=122880 time=743317605.0 cksum=2031725327
+    tbl         uid=0 gid=0 mode=0755 size=135793 time=743315966.0 \
+                cksum=3530082486
+    tcopy       size=45056 time=743317607.0 cksum=769759912
+    tee         size=32768 time=743317608.0 cksum=155891712
+    telnet      size=212992 time=743317610.0 cksum=973545769
+    tfmtodit    uid=0 gid=0 mode=0755 size=76362 time=743316004.0 \
+                cksum=3107655840
+    tftp        size=65536 time=743317612.0 cksum=3951613020
+    time        size=36864 time=743317613.0 cksum=1903356999
+    tip         uid=66 gid=117 mode=04510 nlink=2 size=126976 \
+                time=743317615.0 cksum=4029998637
+    tn3270      size=233472 time=743317620.0 cksum=4000569365
+    touch       size=53248 time=743317624.0 cksum=455542642
+    tput        size=77824 time=743317626.0 cksum=3785765678
+    tr          size=49152 time=743317628.0 cksum=2699960732
+    troff       uid=0 gid=0 mode=0755 size=335907 time=743315952.0 \
+                cksum=1075438538
+    true        size=12288 time=743317629.0 cksum=1632164597
+    tset        nlink=2 size=94208 time=743317631.0 cksum=206034244
+    tsort       size=77824 time=743317633.0 cksum=1887002176
+    tty         size=69632 time=743317635.0 cksum=1408895011
+    ul          size=81920 time=743317637.0 cksum=4080204914
+    uname       size=36864 time=743317639.0 cksum=1776870187
+    uncompress  nlink=2 size=49152 time=743317336.0 cksum=2546426669
+    unexpand    size=36864 time=743317640.0 cksum=2777274566
+    unifdef     size=45056 time=743317641.0 cksum=2364052719
+    uniq        size=45056 time=743317643.0 cksum=3154368545
+    units       size=32768 time=743317644.0 cksum=3785473368
+    unvis       size=36864 time=743317646.0 cksum=3781857423
+    uptime      gid=2 mode=02555 nlink=2 size=106496 time=743317693.0 \
+                cksum=402058096
+    users       size=32768 time=743317647.0 cksum=2102049979
+    uucp        uid=66 gid=1 mode=06555 size=106496 time=743317658.0 \
+                cksum=3434698598
+    uudecode    size=86016 time=743317682.0 cksum=3885546463
+    uuencode    size=36864 time=743317683.0 cksum=3640403587
+    uulog       uid=66 gid=1 mode=06555 size=57344 time=743317660.0 \
+                cksum=3932635168
+    uuname      uid=66 gid=1 mode=06555 size=49152 time=743317661.0 \
+                cksum=2881848018
+    uupoll      uid=66 gid=1 mode=06555 size=65536 time=743317663.0 \
+                cksum=3824677571
+    uuq         uid=66 gid=1 mode=06555 size=90112 time=743317665.0 \
+                cksum=878944081
+    uusend      uid=66 gid=1 nlink=2 size=94208 time=743317667.0 \
+                cksum=3396414669
+    uusnap      uid=66 gid=1 mode=06555 size=45056 time=743317669.0 \
+                cksum=3232101787
+    uux         uid=66 gid=1 mode=06555 size=106496 time=743317671.0 \
+                cksum=771764821
+    vacation    size=90112 time=743317686.0 cksum=2666878016
+    vgrind      size=3859 time=743317688.0 cksum=2623147386
+    vi          mode=01755 nlink=4 size=192512 time=743317367.0 \
+                cksum=3583434416
+    view        mode=01755 nlink=4 size=192512 time=743317367.0 \
+                cksum=3583434416
+    vis         size=45056 time=743317691.0 cksum=393531732
+    vmstat      gid=2 mode=02555 size=94208 time=743317737.0 \
+                cksum=1587089884
+    w           gid=2 mode=02555 nlink=2 size=106496 time=743317693.0 \
+                cksum=402058096
+    wall        gid=4 mode=02555 size=90112 time=743317696.0 \
+                cksum=2540060623
+    wc          size=45056 time=743317697.0 cksum=3076255387
+    what        size=36864 time=743317699.0 cksum=1019792644
+    whatis      size=49152 time=743317700.0 cksum=3610886635
+    whereis     size=36864 time=743317702.0 cksum=883171675
+    who         size=81920 time=743317704.0 cksum=3434269042
+    whoami      size=1858 time=743317413.0 cksum=2780643946
+    whois       size=53248 time=743317705.0 cksum=2378967670
+    window      size=163840 time=743317708.0 cksum=702949992
+    write       gid=4 mode=02555 size=81920 time=743317710.0 \
+                cksum=4101357895
+    xargs       size=45056 time=743317712.0 cksum=3387904830
+    xget        size=102400 time=743317718.0 cksum=2569214744
+    xsend       size=102400 time=743317720.0 cksum=2218100495
+    xstr        size=45056 time=743317723.0 cksum=2069949176
+    yacc        size=90112 time=743317725.0 cksum=1951510871
+    yes         size=16384 time=743317726.0 cksum=1362513069
+    yyfix       size=2405 time=743317724.0 cksum=195515690
+    zcat        size=1866 time=743317336.0 cksum=2176920856
