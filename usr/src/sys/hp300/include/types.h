@@ -4,7 +4,7 @@
  *
  * %sccs.include.redist.c%
  *
- *	@(#)types.h	7.12 (Berkeley) %G%
+ *	@(#)types.h	7.13 (Berkeley) %G%
  */
 
 #ifndef	_MACHTYPES_H_
