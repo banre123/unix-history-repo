@@ -1,4 +1,4 @@
-.\"	"@(#)bibdoc.ms	4.2	%G%";
+.\"	"@(#)bibdoc.ms	4.3	%G%";
 .if n .ND
 .TL
 BIB \- A Program for Formatting Bibliographies
