@@ -4,7 +4,7 @@
 # All rights reserved.  The Berkeley software License Agreement
 # specifies the terms and conditions for redistribution.
 #
-#	@(#)maketape	4.16 (Berkeley) %G%
+#	@(#)maketape	4.17 (Berkeley) %G%
 #
 miniroot=hp0d
 #
