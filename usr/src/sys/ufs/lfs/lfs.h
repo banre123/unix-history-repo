@@ -4,7 +4,7 @@
  *
  * %sccs.include.redist.c%
  *
- *	@(#)lfs.h	5.1 (Berkeley) %G%
+ *	@(#)lfs.h	5.2 (Berkeley) %G%
  */
 
 #define	MAXMNTLEN	512		/* XXX move from fs.h to mount.h */
