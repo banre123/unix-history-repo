@@ -1,0 +1,21 @@
+Extracted from a 2BSD distribution tape.
+
+First label on the tape:
+
+	Second Berkeley Software Tape
+	May 10, 1979	TAR 800BPI
+
+	%dd if=/dev/mt0 bs=1b skip=1 of=tar
+	%chmod 755 tar
+	% tar x
+
+	10000 blocks
+
+Second label on the tape:
+
+	The contents of this tape are
+	distributed to UNIX licensees
+	only, subject to the software
+	agreement you have with Western
+	Electric and an agreement with
+	the University of California.
