@@ -12,7 +12,7 @@ static char copyright[] =
 #endif /* not lint */
 
 #ifndef lint
-static char sccsid[] = "@(#)whatis.c	8.4 (Berkeley) %G%";
+static char sccsid[] = "@(#)whatis.c	8.5 (Berkeley) %G%";
 #endif /* not lint */
 
 #include <sys/param.h>
