@@ -4,7 +4,7 @@
  *
  * %sccs.include.redist.c%
  *
- *	@(#)kern_exit.c	7.46 (Berkeley) %G%
+ *	@(#)kern_exit.c	7.47 (Berkeley) %G%
  */
 
 #include "param.h"
