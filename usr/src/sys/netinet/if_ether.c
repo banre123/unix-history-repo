@@ -3,7 +3,7 @@
  * All rights reserved.  The Berkeley software License Agreement
  * specifies the terms and conditions for redistribution.
  *
- *	@(#)if_ether.c	7.1.1.1 (Berkeley) %G%
+ *	@(#)if_ether.c	7.4 (Berkeley) %G%
  */
 
 /*
