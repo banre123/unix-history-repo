@@ -1,4 +1,4 @@
-/* @(#)ttyslot.c	4.3 (Berkeley) %G% */
+/* @(#)ttyslot.c	4.4 (Berkeley) %G% */
 
 /*
  * Return the number of the slot in the utmp file
