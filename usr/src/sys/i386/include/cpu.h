@@ -8,7 +8,7 @@
  *
  * %sccs.include.noredist.c%
  *
- *	@(#)cpu.h	1.2 (Berkeley) %G%
+ *	@(#)cpu.h	5.1 (Berkeley) %G%
  */
 
 #define	resettodr()	/* no todr to set */
