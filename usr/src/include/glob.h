@@ -7,7 +7,7 @@
  *
  * %sccs.include.redist.c%
  *
- *	@(#)glob.h	5.6 (Berkeley) %G%
+ *	@(#)glob.h	5.7 (Berkeley) %G%
  */
 
 #ifndef _GLOB_H_
