@@ -13,7 +13,7 @@
  *
  * %sccs.include.redist.c%
  *
- *	@(#)autoconf.h	7.2 (Berkeley) %G%
+ *	@(#)autoconf.h	7.3 (Berkeley) %G%
  *
  * from: $Header: autoconf.h,v 1.8 92/06/24 08:55:42 torek Exp $ (LBL)
  */
