@@ -1,5 +1,5 @@
 #
-#	@(#)Makefile	1.19	(Berkeley)	%G%
+#	@(#)Makefile	1.20	(Berkeley)	%G%
 #
 M=/usr/src/lib/mip
 P=/usr/src/lib/pcc/pcc.${MACHINE}
