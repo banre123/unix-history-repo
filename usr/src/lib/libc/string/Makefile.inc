@@ -1,4 +1,4 @@
-#	@(#)Makefile.inc	5.7 (Berkeley) %G%
+#	@(#)Makefile.inc	5.8 (Berkeley) %G%
 
 # string sources
 .PATH: ${.CURDIR}/${MACHINE}/string ${.CURDIR}/string
