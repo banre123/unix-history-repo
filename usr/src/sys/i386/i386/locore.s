@@ -7,7 +7,7 @@
  *
  * %sccs.include.386.c%
  *
- *	@(#)locore.s	1.4 (Berkeley) %G%
+ *	@(#)locore.s	5.1 (Berkeley) %G%
  */
 
 /*
